@@ -1,0 +1,243 @@
+@media screen and (max-width: 560px) {
+
+    body > nav > ul > li > a {
+        font-size: 0.8em;
+        gap: none;
+    }
+
+    body > nav > ul {
+        gap: 0.8em;
+    }
+
+   
+    body > header > h1 {
+        font-size: 2em;
+        padding-left: 2em;
+    }
+
+    body > header > h2 {
+        font-size: 1.5em;
+        padding-left: 2.1em;
+    }
+    
+    #divcontent > main > div > figure {
+        padding-left: 4em;
+    }
+
+    #image1 {
+        padding-left: 7em;
+        width: 100%;
+    }
+
+    
+    #image2 {
+        float: left;
+        width: 100%;
+        padding-left: 4em;
+       
+    }
+
+
+    body > div > main > div > p {
+        font-size: 1.3em;
+        padding-left: 2em;
+        justify-content: center;
+    padding-right: 2em;
+    }
+
+    body > div > main {
+        width: fit-content;
+    }
+
+    #quotetext {
+        padding-bottom: 3em;
+        padding-left: 2em;
+    }
+
+    aside {
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    body > div > aside {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #aheader {
+        padding-right: 2em;
+    }
+
+    #image3 {
+        width: 100%;
+        padding-left: 6em;
+    }
+
+    main {
+        width: fit-content;
+        padding: 4em;
+    }
+
+    aside {
+        width: fit-content;
+    }
+
+    #work1 {
+        width: 100%;
+        padding-right: 2em;
+        margin-left: -4em;
+    }
+
+    aside > img {
+        width: 100%;
+        padding-left: -19em;
+    }
+
+    #noborder {
+        padding-left: 12em;
+        
+        width: 90%;
+    
+    }
+
+
+
+
+/*3*/
+
+body > div > div > div > main {
+    width: fit-content;
+}
+
+
+body > div > div > div > aside  {
+    width: fit-content;
+    
+}
+
+#ouraside {
+    padding-right: 4em;
+    width: 54%;
+    padding-right: 5em;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5em;
+    margin-right: 4em;
+}
+
+#ourmain {
+    width: fit-content;
+}
+
+#quotetext {
+    font-size: 1.5em;
+    padding-right: 2em;
+}
+
+#highlight3 {
+    font-size: 1.2em;
+}
+
+/*4*/
+
+#conus {
+    width: 2%;
+}
+
+#ig {
+    width: 10%;
+}
+
+#ikon {
+    width: 50%;
+}
+
+div > div > div > div > main {
+    width: fit-content;
+}
+
+
+body > div > div > div > div > main > figure > img {
+    width: 180%;
+}
+
+
+
+div > div > div > div > aside {
+    width: fit-content;
+    font-size: 1em;
+    padding-right: 5em;
+    margin-right: 6em;
+    margin-bottom: 3em;
+    margin-top: -2em;
+}
+
+
+body > div > div > div > div > aside > h2 {
+    width: 100%;
+    font-size: 2em;
+}
+
+
+body > div > div > div > div > aside > div > p {
+    
+    font-size: 1.4em;
+}
+
+#gheader {
+    width: 100%;
+    font-size: 0.5em;
+}
+
+
+#mainclass {
+    width: fit-content;
+    padding-right: 4em;
+    margin-left: -4em;
+    margin-right: 5em;
+}
+
+body > main {
+    width: 100%;
+    padding-left: 6em;
+}
+
+ /*CART*/
+
+ .mainclass {
+    padding-left: 17em;
+    padding-bottom: 5em;
+}
+
+#products {
+    margin-bottom: 2em;
+}
+
+.product {
+    padding: 1em;
+    border: 1px solid #333;
+}
+
+
+body > main > div > img {
+    width: 50%;
+    padding-left: 6em;
+}
+
+
+body > main > div > img > p {
+    width: 50%;
+    padding-left: 6em;
+    font-size: 2em;
+}
+}
+
+
+
+
+
+
+
+

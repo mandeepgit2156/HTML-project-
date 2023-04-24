@@ -1,0 +1,560 @@
+
+* {
+    max-width: 1200px;
+}
+
+body {
+    background-color: #fbfdff;
+    
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin-bottom: 1.2em;
+}
+
+ /*NAV*/
+
+nav {
+    background-color: #5583a9;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3.2em;
+    justify-content: center;
+}
+
+nav a {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 1em;
+    color: rgb(250, 246, 246);
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: 0.25s;
+    font-family: "Trirong", serif;
+}
+
+nav a:hover {
+    background-color: #3c6382;
+}
+ /*HEADER*/
+
+header {
+    background-image: url("../back12.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+}
+
+header h1{
+    font-size: 3.5em;
+    padding-top: 1em;
+}
+
+header h2{
+    font-size: 2.8em;
+    margin-top: -0.2em;
+    margin-bottom: 1.5em;
+}
+
+/*BODY CONTENT*/
+
+#mcontent {
+    background-color: white;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centre;
+    gap: 2em;
+}
+
+/*MAIN*/
+
+main {
+    width: 55%;
+    float: left;
+    padding-left: 2em;
+}
+ /*ASIDE*/
+
+aside {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    border: 2px solid #5583a9;
+    float: right;
+}
+
+aside h2 {
+    color: white;
+    background-color: #5583a9;
+    font-size: 1.8em;
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.2em;
+    margin-top: 0.6em;
+    padding-left: 1.4em;
+}
+
+aside ul {
+    list-style: none;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+aside li {
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+}
+
+ /*IMAGES*/
+
+#image1 {
+    float: left;
+    margin-left: -0.4em;
+}
+
+#image2 {
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+figure cite {
+    display: block;
+}
+
+img {
+    width: 300px;
+}
+
+#sourcetext {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#textimage {
+    color: #5583a9;
+    font-size: 1.2em;
+}
+
+#textimage:hover {
+    color: #3c6382;
+}
+
+#asize {
+    margin-left: -0.8em;
+    margin-top: -0.5em;
+}
+
+#quotetext {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+}
+ /*FOOTER*/
+
+footer {
+    background-image: url("../back12.jpg");
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    color: white;
+    padding-top: 3em;
+
+}
+
+/*ABOUT US*/
+ #aheader {
+    background-image: url("../back12.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    padding-bottom: 3em;
+ }
+
+ #image3 {
+    padding-left: 2em;
+    padding-top: 2em;
+    float: left;
+ }
+
+ #apabout {
+    padding: 2em;
+    margin-bottom: -2em;
+    padding-bottom: 4em;
+ }
+
+    body > div > div > h2 {
+        font-size: 2.8em;
+        color: #718ea6;
+        text-align: center;
+    }
+    body > div > div > main > ul {
+        list-style: none;
+    }
+
+    body > div > div > main > ul > li {
+        font-size: 1.4em;
+        float: left;
+    }
+
+    body > div > div > aside > img {
+        float: right;
+        margin-top: 3em;
+        width: 90%;
+    
+    }
+
+    div > div > main {
+        width: 50%;
+        padding-left: 2em;
+        padding-bottom: 4em;
+        
+    }
+
+    div > div > aside {
+        width: 40%;
+        border: none;
+    }
+
+    div > div > aside > #noborder {
+        border: none;
+    }
+
+    aside > #noborder {
+        border: none;
+    }
+
+    #highlight {
+        background-color: #93a5b4;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+        padding: 1.5em;
+    }
+
+    #highlight2 {
+        margin-top: 1.5em;
+    }
+
+/*Our Process*/
+
+    #oheader {
+        background-image: url("../back12.jpg");
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 150px;
+        padding-bottom: 3em;
+    }
+
+    #image5 {
+        width: 1000px;
+        width: 90%;
+    }
+
+    #yes1 {
+        width: 100%;
+        
+    }
+
+    #textmove {
+        text-align: center;
+    }
+
+    #qt2 {
+        padding-bottom: 3m;
+    }
+
+    #highlight3 {
+        background-color: #83919c;
+        font-size: 1.8em;
+        width: 80%;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+ 
+    
+    div > div > div > main > #ourmain {
+        width: 35%;
+        padding-left: 4em;
+    }
+
+    div > div > div > main > aside > #ouraside {
+        width: 50%;
+
+    }
+
+    #ourmain {
+        width: 40%;
+        padding-left: 7em;
+    }
+
+    #ouraside {
+        border: none;
+        width: 40%;
+    }
+
+    #citefixed {
+        font-size: 1.8em;
+    }
+
+/*CONTACT US*/
+
+#ccontact {
+    background-image: url("../back12.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    padding-bottom: 3em;
+}
+
+div div div nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+div div div nav ul li a img {
+    display: flex;
+    width: 80%;
+}
+
+#image0 {
+    padding-top: 3em;
+    padding-left: 3em;
+}
+
+body > div > div > div > div > main {
+    width: 60%;
+}
+
+body > div > div > div > div > aside {
+    width: 30%;
+    border-left: -3em;
+}
+
+body > div > div > div > div > main > figure > img {
+    width: 90%;
+}
+
+body > div > div > div > div > aside {
+    border: none;
+}
+
+body > div > div > div > div > aside > h2 {
+    background-color: white;
+    color: #3c6382;
+    padding-top: 2em;
+    border-left: -4em;
+    border-right: 4em;
+}
+
+body > div > div > div > div > aside > div > p {
+    font-size: 1.5em;
+    color: black;
+}
+
+/*GALLERY*/
+
+#gheader {
+    background-image: url("../back12.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+button {
+    padding: 1.6rem 1.8rem;
+    font-size: 1.8rem;
+    background-color: #5583a9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2em;
+    margin-bottom: 1em;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    background-color: #3c6382;
+  }
+  
+  .zoom {
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    font-size: 4em;
+    display: flex;
+  }
+
+  
+  body > header > div > ul {
+    display: flex;
+    list-style: none;
+    gap: 3.4em;
+    justify-content: center;
+    padding-right: 2em;
+  }
+
+  #gheading {
+    margin-top: -1em;
+  }
+
+  #gheader > nav {
+    padding-right: 2em;
+    width: 97.5%;
+    margin-top: -3.4em;
+  }
+
+  /*CART*/
+
+.mainclass {
+    padding-left: 17em;
+    padding-bottom: 5em;
+}
+
+#products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-bottom: 2em;
+}
+
+.product {
+    padding: 1em;
+    border: 1px solid #333;
+}
+
+body > header > div > ul > li > a {
+    display: block;
+    cursor: pointer;
+}
+
+body > header > div > button > a {
+    display: block;
+    cursor: pointer;
+}
+
+.product > img {
+    display: block;
+    margin-bottom: 1.4em;
+}
+
+.product > p1 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product > h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0.5em 0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 1em;
+}
+
+
+.product .price {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    text-align: center;
+    border: 1px solid #333;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.product .price:hover {
+    background-color: #748898;
+
+}
+
+#cartModal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 2;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#receipt {
+    background-color: #fff;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+#receipt table {
+    width: 100%;
+}
+
+#receipt table th, #receipt table td {
+    padding: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #333;
+}
+
+#receipt table th {
+    font-size: 1.4em;
+}
+
+
+
+
+  
+
+
+
+ 
